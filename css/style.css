@@ -511,10 +511,10 @@ header .navbar a:hover {
     align-items: center;
     flex-wrap: wrap;
     gap: 1.5rem;
+    padding: 2rem;
 }
-
 .footer .heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .footer i,
 .footer span {
@@ -524,8 +524,8 @@ header .navbar a:hover {
     position: fixed;
     top: -120%;
     right: 2rem;
-    padding: 0.3rem 1.5rem;
-    font-size: 4rem;
+    padding: 0.3rem 1rem;
+    font-size: 2rem;
     background-color: var(--red);
     color: #fff;
     border-radius: 0.5rem;
@@ -573,6 +573,12 @@ header .navbar a:hover {
     section {
         padding: 2rem;
     }
+    .home .imges-home img {
+        width: 300px;
+    }
+    .popalar .price {
+        left: 6rem;
+    }
 }
 @media (max-width: 768px) {
     .menu-bar {
@@ -599,13 +605,21 @@ header .navbar a:hover {
         width: 100%;
         background-color: #fff;
     }
+    .popalar .price {
+        top: 4rem;
+        left: 9rem;
+    }
 }
-@media (max-width: 450px) {
+@media (max-width: 576px) {
     html {
         font-size: 50%;
     }
     .order .row form .inputBox input {
         width: 100%;
+    }
+    .popalar .price {
+        top: 4rem;
+        left: 12rem;
     }
 }
 /* animation */
